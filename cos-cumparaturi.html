@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Magazin Online - Coșul de Cumpărături</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/foundation.min.css">
+  <link rel="stylesheet" href="assets/vendor/foundation.min.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+  <!-- Navigație -->
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="menu">
+        <li class="menu-text">Mara Lacto</li>
+        <li><a href="index.html">Acasă</a></li>
+        <li><a href="produse.php">Produse</a></li>
+        <li><a href="promotii.php">Promoții</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="blog.html">Bloguri</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Conținut coș -->
+  <div class="grid-container">
+    <h2>Coșul de Cumpărături</h2>
+    <p>Produsele adăugate în coș vor apărea aici.</p>
+    
+   <!-- Conținut checkout -->
+   <div class="grid-container">
+    <p>____________________________________________________________________________________________________________________________</p>
+    <div class="callout alert">
+      <h5>Nu sunteti inregistrat!</h5>
+      <h4>Inregistrativa <a href="login.php">aici</a></h4>
+    </div>
+    <p></p>
+    <h2>Checkout</h2>
+    <h3>Total: 0</h3>
+    <form>
+      <label>Adresa de livrare:
+        <input type="text" placeholder="Strada, Nr., Oraș">
+      </label>
+      <label>Metoda de plată:
+        <select>
+          <option>Card bancar</option>
+          <option>Plată ramburs</option>
+          <option>Pokemon Cards</option>
+          <option>Chei masina</option>
+        </select>
+      </label>
+
+      <a class="button large hollow primary" href="#" disabled>Confirma</a>
+    </form>
+  </div>
+
+  <script src="assets/vendor/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
